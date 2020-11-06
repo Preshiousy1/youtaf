@@ -1,0 +1,58 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+/*font Variables*/
+$headingFont: 'Josefin Sans', sans-serif;
+$paraFont: 'Open Sans', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #0077cc;
+$baseColorLight: #2b7eb9;
+$dip: #33353b;
+$dip2: #0a0a0a;
+
+$heading: #33363e;
+$pfont: #797979; 
+$white: #fff;
+$bg_one: #fbf1f2;
+$title-color: #2a2a2a;
+$border: #e8edf1;
+
+
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans:400,600,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+	transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}

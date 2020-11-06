@@ -1,0 +1,442 @@
+/*============ blog_left_sidebar css ==============*/
+/* line 525, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+.blog_item {
+    margin-bottom: 50px;
+  }
+  
+  /* line 529, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_details {
+    padding: 30px 0 20px 10px;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+  }
+  
+  @media (min-width: 768px) {
+    /* line 529, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+    .blog_details {
+      padding: 60px 30px 35px 35px;
+    }
+  }
+  
+  /* line 537, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_details p {
+    margin-bottom: 30px;
+  }
+  
+  /* line 541, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_details a {
+    color: #0077cc;
+  }
+
+
+
+
+  
+  /* line 544, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_details a:hover {
+    color: #eb592d;
+  }
+  
+  /* line 549, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_details h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    /* line 549, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+    .blog_details h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* line 563, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link li {
+    float: left;
+    font-size: 14px;
+  }
+  
+  /* line 567, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link li a {
+    color: #999999;
+  }
+  
+  /* line 571, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link li i,
+  .blog-info-link li span {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  
+  /* line 577, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link li::after {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* line 583, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link li:last-child::after {
+    display: none;
+  }
+  
+  /* line 588, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-info-link::after {
+    content: "";
+    display: block;
+    clear: both;
+    display: table;
+  }
+  
+  /* line 596, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_item_img {
+    position: relative;
+  }
+  
+  /* line 599, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_item_img .blog_item_date {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    display: block;
+    color: #fff;
+    background-color: #eb592d;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    /* line 599, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+    .blog_item_img .blog_item_date {
+      bottom: -20px;
+      left: 40px;
+      padding: 13px 30px;
+    }
+  }
+  
+  /* line 615, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_item_img .blog_item_date h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    /* line 615, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+    .blog_item_img .blog_item_date h3 {
+      font-size: 30px;
+    }
+  }
+  
+  /* line 627, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_item_img .blog_item_date p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    /* line 627, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+    .blog_item_img .blog_item_date p {
+      font-size: 18px;
+    }
+  }
+  
+  /* line 647, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .widget_title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* line 652, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .widget_title::after {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid #f0e9ff;
+  }
+  
+  /* line 660, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* line 664, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .single_sidebar_widget .btn_1 {
+    margin-top: 0px;
+  }
+  
+  /* line 672, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .search_widget .form-control {
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 20px;
+    border-radius: 0;
+    border-right: 0;
+  }
+  
+  /* line 681, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .search_widget .form-control::placeholder {
+    color: #999999;
+  }
+  
+  /* line 685, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .search_widget .form-control:focus {
+    border-color: #f0e9ff;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 694, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .search_widget .input-group button {
+    background: #fff;
+    border-left: 0;
+    border: 1px solid #f0e9ff;
+    padding: 4px 15px;
+    border-left: 0;
+  }
+  
+  /* line 701, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .search_widget .input-group button i,
+  .blog_right_sidebar .search_widget .input-group button span {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  /* line 713, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .newsletter_widget .form-control {
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 20px;
+    border-radius: 0;
+  }
+  
+  /* line 722, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .newsletter_widget .form-control::placeholder {
+    color: #999999;
+  }
+  
+  /* line 726, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .newsletter_widget .form-control:focus {
+    border-color: #f0e9ff;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 735, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .newsletter_widget .input-group button {
+    background: #fff;
+    border-left: 0;
+    border: 1px solid #f0e9ff;
+    padding: 4px 15px;
+    border-left: 0;
+  }
+  
+  /* line 742, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .newsletter_widget .input-group button i,
+  .blog_right_sidebar .newsletter_widget .input-group button span {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  /* line 755, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .post_category_widget .cat-list li {
+    border-bottom: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding-bottom: 12px;
+  }
+  
+  /* line 760, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .post_category_widget .cat-list li:last-child {
+    border-bottom: 0;
+  }
+  
+  /* line 764, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .post_category_widget .cat-list li a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #888888;
+  }
+  .blog_right_sidebar .post_category_widget .cat-list li a:hover {
+    color: #eb592d;
+  }
+  /* line 769, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .post_category_widget .cat-list li a p {
+    margin-bottom: 0px;
+  }
+  
+  /* line 774, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .post_category_widget .cat-list li + li {
+    padding-top: 15px;
+  }
+  
+  /* line 791, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .popular_post_widget .post_item .media-body {
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+  }
+  
+  /* line 796, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    transition: all 0.3s linear;
+  }
+  
+  /* line 807, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
+    color: #fff;
+  }
+  
+  /* line 813, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .popular_post_widget .post_item .media-body p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+  }
+  
+  /* line 820, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .popular_post_widget .post_item + .post_item {
+    margin-top: 20px;
+  }
+  
+  /* line 828, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .tag_cloud_widget ul li {
+    display: inline-block;
+  }
+  
+  /* line 831, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .tag_cloud_widget ul li a {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 13px;
+  }
+  
+  /* line 842, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .tag_cloud_widget ul li a:hover {
+    background: #eb592d;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 857, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .instagram_feeds .instagram_row {
+    display: flex;
+    margin-right: -6px;
+    margin-left: -6px;
+  }
+  
+  /* line 863, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .instagram_feeds .instagram_row li {
+    width: 33.33%;
+    float: left;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+  }
+  
+  /* line 963, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog_right_sidebar .br {
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+    margin: 30px 0px;
+  }
+  
+  /* line 984, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-pagination {
+    margin-top: 80px;
+  }
+  
+  /* line 988, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-pagination .page-link {
+    font-size: 14px;
+    position: relative;
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-left: -1px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0 !important;
+    color: #8a8a8a;
+    border: 1px solid #f0e9ff;
+    margin-right: 10px;
+  }
+  
+  /* line 1005, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-pagination .page-link i,
+  .blog-pagination .page-link span {
+    font-size: 13px;
+  }
+  
+  /* line 1017, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-pagination .page-item.active .page-link {
+    background-color: #fbf9ff;
+    border-color: #f0e9ff;
+    color: #888888;
+  }
+  
+  /* line 1024, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .blog-pagination .page-item:last-child .page-link {
+    margin-right: 0;
+  }
+  
+  /*============ Start Blog Single Styles  =============*/
+  /* line 1049, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_blog.scss */
+  .single-post-area .blog_details {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+
+  .button{
+  
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 54px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid  #0077cc;
+    text-transform: uppercase;
+    background:  #0077cc;
+    cursor: pointer;
+  
+  
+    @media(max-width: 767px){
+      font-size: 13px;
+      padding: 9px 24px;
+    }
+
+  }
+  .button:hover{
+    background:   #00538f;
+    color: white;
+  }
+  
+  
+  /* End Main Button Area css
+  ============================================================================================ */
