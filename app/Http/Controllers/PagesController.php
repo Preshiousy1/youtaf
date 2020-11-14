@@ -17,7 +17,8 @@ class PagesController extends Controller
     }
 
     public function about(){
-        return view('pages.about');
+        $setting = Setting::find(1);
+        return view('pages.about')->with('setting', $setting);
     }
 
     
